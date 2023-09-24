@@ -63,7 +63,7 @@ justify-content: center;
 .productCard{
     width: 250px;
     height: 450px;
-    background: rgb(204, 201, 201);
+    background: rgb(232, 232, 232);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4) ;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -71,11 +71,36 @@ justify-content: center;
 }
 .productCard img{
     width: 100%;
-    height: 250px;
+    height: 270px;
     object-fit: cover;
 }
-
-
+.inside-card{
+    padding: 10px 15px;
+}
+.text-heading{
+    font-size: 18px;
+    font-weight: 500;
+}
+.text-small{
+    color: gray;
+    font-size: 15px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.inside-card .center button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background: #000;
+    color: white;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
 
 @media only screen and (max-width:850px) {
     .row {

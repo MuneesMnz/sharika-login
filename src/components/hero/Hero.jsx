@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="hero-container">
           <div className="hero-sub-head">new Arival</div>
           <h1>Discover Our New Collection</h1>
-          <p>
+          <p className="content-hero">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error hic
             earum cumque suscipit magni vel aspernatur, quas debitis
           </p>
