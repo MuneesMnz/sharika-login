@@ -56,7 +56,7 @@ const Slider = () => {
   return (
     <div className="slider-container">
       <div className="slider-text">
-        <div className="text-heading">50+ Beautiful rooms inspiration</div>
+        <div className="text-heading-slider">50+ Beautiful rooms inspiration</div>
         <div className="text-content">
           Our designer already made a lot of beautiful prototipe of rooms that
           inspire you
